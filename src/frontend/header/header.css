@@ -1,0 +1,168 @@
+
+.Header {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./hourcode2016_girllllllllll.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 0 40px black;
+  border-bottom: 1px solid #1995AD;
+}
+
+.nav-container {
+  position: fixed;
+  width: 100vw;
+  height: 74px;
+  border-bottom: 1px solid #08fdd8;
+  background: #1995AD;
+  box-shadow: 0 0 40px black;
+  z-index: 999;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  color: #A1D6E2;
+  height: 71px;
+}
+
+.header-logo {
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  align-self: center;
+  padding-left: 8px;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color: #A1D6E2;
+}
+
+.header-logo a:hover {
+  cursor: pointer;
+}
+/* .right {
+  color: white;
+} */
+
+#navigation {
+  margin-right: 15px;
+  padding: 0;
+  align-self: center;
+
+}
+#navigation ul  {
+    margin: 0
+}
+
+#navigation ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 0 0 30px;
+}
+
+#navigation ul li a {
+  text-decoration: none;
+  color: #A1D6E2;
+  transition: 0.5s;
+}
+
+#navigation ul li a:hover {
+  color: #A1D6E2;
+  cursor: pointer;
+}
+
+#navigation ul li a .active {
+  color: #A1D6E2;
+  font-size: 20px;
+}
+
+.welcome-area {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text {
+  color: #ffffff;
+  text-align: center;
+  margin: auto auto 40% auto;
+}
+
+#textRotator {
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.classA {
+  font-size: 4.6em;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 4px solid #1995AD;
+  border-right: 4px solid #1995AD;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
+
+
+@media (max-width: 850px) {
+  .header-text {
+    margin: auto;
+  }
+}
+
+@media (max-height: 800px) {
+  .header-text {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 537px) {
+  
+  #navigation ul li a .active {
+    font-size: 15px;
+  }
+
+  .header-logo a {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
+
+
+

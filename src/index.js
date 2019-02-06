@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './frontend/serviceWorker';
+// module.exports = {
+//     VerticalTimeline: require('./VerticalTimeline').default, // eslint-disable-line global-require
+//     VerticalTimelineElement: require('./VerticalTimelineElement').default, // eslint-disable-line global-require
+//   };
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
