@@ -16,7 +16,7 @@ export default function Header() {
           <div className="container">
             <div className="nav-bar">
               <div className="header-logo">
-                <a>8 Days a Week</a>
+                <header>8 Days a Week</header>
               </div>
               <nav id="navigation">
                 <CryptoCard
