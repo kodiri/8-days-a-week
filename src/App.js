@@ -13,10 +13,11 @@ class App extends Component {
         return (
             <Router>
                 <div className="App">
-                    <Route exact path="/" component={TimeLine} />
-                    <Route exact path="/details" component={Details} />
                     <Header />
                     <TimeLine />
+                    <Route exact path="/" component={TimeLine} />
+                    <Route exact path="/details" component={Details} />
+                    
                 </div>
             </Router>
         );
