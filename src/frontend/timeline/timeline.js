@@ -22,7 +22,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Code Mood</h4>
                             <p>“You can’t wait for inspiration. You have to go after it with a club.”</p>
                             <Link to="/details" component={Details}>
-                                <button>Click Me</button>
+                                <button className="myButton">Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -33,7 +33,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Drink Mood</h4>
                             <p>“If you think you are too small to make a difference, try sleeping with a mosquito.“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -44,7 +44,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Learn Mood</h4>
                             <p>“Consider the postage stamp: its usefulness consists in the ability to stick to one thing ’til it gets there.“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton">Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -55,7 +55,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Code Mood</h4>
                             <p>“A diamond is merely a lump of coal that did well under pressure.“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -66,7 +66,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Hard Drink Mood</h4>
                             <p>“I have not failed. I’ve just found 10,000 ways that won’t work.“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -77,7 +77,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Worse Mood</h4>
                             <p>“Listen, smile, agree, and then do whatever you were gonna do anyway.“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -88,7 +88,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Relax</h4>
                             <p>“Nothing is impossible, the word itself says ‘I’m possible’!“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -99,7 +99,7 @@ class TimeLine extends Component {
                             <h4 className="vertical-timeline-element-subtitle">Relax</h4>
                             <p>“Nothing is impossible, the word itself says ‘I’m possible’!“</p>
                             <Link to="/details" component={Details}>
-                            <button>Click Me</button>
+                            <button className="myButton" >Click Me</button>
                             </Link>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
