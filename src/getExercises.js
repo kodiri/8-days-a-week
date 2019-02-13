@@ -1,10 +1,10 @@
 import React from 'react';
-import plank from './frontend/fitnessImages/plank';
-import pushUp from './frontend/fitnessImages/push-up';
-import sitUp from './frontend/fitnessImages/sit-up';
-import starJump from './frontend/fitnessImages/star-jump';
-import yoga from './frontend/fitnessImages/yoga';
-import chairPushUp from './frontend/fitnessImages/chair-push-up';
+import plank from './frontend/fitnessimages/plank';
+import pushUp from './frontend/fitnessimages/push-up';
+import sitUp from './frontend/fitnessimages/sit-up';
+import starJump from './frontend/fitnessimages/star-jump';
+import yoga from './frontend/fitnessimages/yoga';
+import chairPushUp from './frontend/fitnessimages/chair-push-up';
 
 let exercises = [
     {
