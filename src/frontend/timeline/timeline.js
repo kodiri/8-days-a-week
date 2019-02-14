@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import Details from '../Details/Details.js';
 import './timeline.css';
 import 'react-vertical-timeline-component/style.min.css';
-
+import Header from '../header/header';
 
 
 class TimeLine extends Component {
     render() {
         return (
+            <div>
+            <Header />
             <div className="timeLine">
                 
                     <VerticalTimeline>
@@ -103,6 +105,7 @@ class TimeLine extends Component {
                             </Link>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
+            </div>
             </div>
         );
     }
