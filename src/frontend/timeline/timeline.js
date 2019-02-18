@@ -12,7 +12,7 @@ class TimeLine extends Component {
         return (
             <div>
             <Header />
-            <div className="timeLine">
+            <div className="timeLine" id = 'timeline'>
 
                 <VerticalTimeline>
 
