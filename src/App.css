@@ -18,4 +18,7 @@ html, body {
 .App {
   /* background-color: #A1D6E2; */
 }
+html{
+  scroll-behavior: smooth;
+}
 

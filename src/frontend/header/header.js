@@ -33,9 +33,9 @@ export default function Header() {
               <MyComponent />
             </div>
             <div className='arrow'>
+              <a href = '#timeline' ><span></span>
               <span></span>
-              <span></span>
-              <span></span>
+              <span></span></a>
             </div>
           </div>
         </div>
