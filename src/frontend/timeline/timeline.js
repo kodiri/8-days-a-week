@@ -24,8 +24,8 @@ class TimeLine extends Component {
 
                         <p>"The Computer was the first machine man built that assisted the power of his brain instead of the strength of his arm"</p>
                         <h6>Grace Hopper : Computer pioneer</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -36,8 +36,8 @@ class TimeLine extends Component {
 
                         <p>"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins"</p>
                         <h6>Ellen Ullman : Software engineer and author</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -47,6 +47,9 @@ class TimeLine extends Component {
                         <h3 className="vertical-timeline-element-title">Wednesday</h3>
                         <p>"We hold ourselves back in ways both big and small, by lacking self-confidence, by not raising our hands, and by pulling back when we should be leaning in".</p>
                         <h6>Sheryl Sandberg, Facebook COO</h6>
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
+                        </Link>
 
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -57,8 +60,8 @@ class TimeLine extends Component {
 
                         <p>“Understand well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand."</p>
                         <h6>Ada Lovelace : 'The Mother of programming'</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -70,7 +73,9 @@ class TimeLine extends Component {
                         <p>“When I first started using the phrase software engineering, it was considered to be quite amusing. They used to kid me about my radical ideas. Software eventually and necessarily gained the same respect as any other discipline.”</p>
                         <h6>Margaret Hamilton : Mathematician and pioneering computer scientist
                              who coined the phrase "Software Engineering"</h6>
-
+                         <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
+                        </Link>
 
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -81,8 +86,8 @@ class TimeLine extends Component {
 
                         <p>"Life doesn’t always present you with the perfect opportunity at the perfect time. Opportunities come when you least expect them, or when you’re not ready for them. Rarely are opportunities presented to you in the perfect way, in a nice little box with a yellow bow on top. … Opportunities, the good ones, they’re messy and confusing and hard to recognize. They’re risky. They challenge you.”</p>
                         <h6>Susan Wojcicki : CEO YouTube</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -90,12 +95,10 @@ class TimeLine extends Component {
                         date="Sunday"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}>
                         <h3 className="vertical-timeline-element-title">Sunday</h3>
-
-
                         <p>“I learned to always take on things I’d never done before. Growth and comfort do not coexist.”</p>
                         <h6>Virginia Marie "Ginni" Rometty : Chairwoman, President and CEO of IBM</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -103,11 +106,10 @@ class TimeLine extends Component {
                         date="One More Sunday"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}>
                         <h3 className="vertical-timeline-element-title">'the eighth day'</h3>
-
                         <p>"Women belong in all places where decisions are being made... It shouldn't be that women are the exception."</p>
                         <h6>Ruth Bader Ginsburg, associate justice of the U.S. Supreme Court</h6>
-                        <Link to="/details" component={Details}>
-
+                        <Link to="/details" className='btn' component={Details}>
+                            Find Out More...
                         </Link>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
