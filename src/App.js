@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Details from './frontend/Details/Details.js';
 
 
+
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
                 <div className="App">
                     <Route exact path="/" component={TimeLine} />
                     <Route exact path="/details" component={Details} />
+                    
                 </div>
             </Router>
         );
