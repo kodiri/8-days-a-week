@@ -1,5 +1,7 @@
 import React from 'react';
 import './Details.css';
+import { Link } from 'react-router-dom';
+
 // import Header from '../header/header.js';
 export default function Details() {
     return (
@@ -38,6 +40,7 @@ export default function Details() {
   					<p>Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.</p>
   					<br />
   					<p><a className='details-a' href="https://medium.com/@triketora" target="_blank" rel="noopener noreferrer">Learn more ...</a></p>
+					  <Link to='/'>Back to home page</Link>
 				</div>
 			</div>
         </div>
