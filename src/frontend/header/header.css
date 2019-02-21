@@ -12,20 +12,14 @@
 }
 
 .nav-container {
-  position: fixed;
-  width: 100vw;
-  height: 74px;
-  border-bottom: 1px solid #08fdd8;
   background: #1995AD;
-  box-shadow: 0 0 40px black;
-  z-index: 999;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   color: #A1D6E2;
-  height: 71px;
+  height: 100px;
 }
 
 .header-logo {
@@ -44,9 +38,6 @@
 .header-logo a:hover {
   cursor: pointer;
 }
-/* .right {
-  color: white;
-} */
 
 #navigation {
   margin-right: 15px;
