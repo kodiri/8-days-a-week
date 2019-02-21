@@ -20,23 +20,23 @@ self.__precacheManifest = [
     "url": "/8-days-a-week/static/js/runtime~main.edff7cdd.js"
   },
   {
-    "revision": "708b674a36cf80861b46",
-    "url": "/8-days-a-week/static/js/main.708b674a.chunk.js"
+    "revision": "8405374bb4815e662054",
+    "url": "/8-days-a-week/static/js/main.8405374b.chunk.js"
   },
   {
-    "revision": "88cd301b95ffb3b63e9f",
-    "url": "/8-days-a-week/static/js/1.88cd301b.chunk.js"
+    "revision": "dc4c21e115deeb6a6287",
+    "url": "/8-days-a-week/static/js/1.dc4c21e1.chunk.js"
   },
   {
-    "revision": "708b674a36cf80861b46",
+    "revision": "8405374bb4815e662054",
     "url": "/8-days-a-week/static/css/main.67f5e8ee.chunk.css"
   },
   {
-    "revision": "88cd301b95ffb3b63e9f",
+    "revision": "dc4c21e115deeb6a6287",
     "url": "/8-days-a-week/static/css/1.df73cea7.chunk.css"
   },
   {
-    "revision": "114d3a7aee80f9af46addacfe7ec3bbe",
+    "revision": "f201426d1faf0a132578cd501b99d6ed",
     "url": "/8-days-a-week/index.html"
   }
 ];
