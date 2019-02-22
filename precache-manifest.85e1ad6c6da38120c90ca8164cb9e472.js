@@ -20,23 +20,23 @@ self.__precacheManifest = [
     "url": "/8-days-a-week/static/js/runtime~main.edff7cdd.js"
   },
   {
-    "revision": "8405374bb4815e662054",
-    "url": "/8-days-a-week/static/js/main.8405374b.chunk.js"
+    "revision": "925057d6952d79b96e4a",
+    "url": "/8-days-a-week/static/js/main.925057d6.chunk.js"
   },
   {
-    "revision": "dc4c21e115deeb6a6287",
-    "url": "/8-days-a-week/static/js/1.dc4c21e1.chunk.js"
+    "revision": "c85da0da28e8d8f9d9c5",
+    "url": "/8-days-a-week/static/js/1.c85da0da.chunk.js"
   },
   {
-    "revision": "8405374bb4815e662054",
-    "url": "/8-days-a-week/static/css/main.67f5e8ee.chunk.css"
+    "revision": "925057d6952d79b96e4a",
+    "url": "/8-days-a-week/static/css/main.44f76d05.chunk.css"
   },
   {
-    "revision": "dc4c21e115deeb6a6287",
-    "url": "/8-days-a-week/static/css/1.df73cea7.chunk.css"
+    "revision": "c85da0da28e8d8f9d9c5",
+    "url": "/8-days-a-week/static/css/1.b64962c6.chunk.css"
   },
   {
-    "revision": "f201426d1faf0a132578cd501b99d6ed",
+    "revision": "7e389e29262f25204e5a3dcc6af3b560",
     "url": "/8-days-a-week/index.html"
   }
 ];
