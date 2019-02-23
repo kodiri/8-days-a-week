@@ -14,8 +14,7 @@ class App extends Component {
             <HashRouter>
                 <div className="App">
                     <Route exact path="/" component={TimeLine} />
-                    <Route exact path="/details" component={Details} />
-                    
+                    <Route exact path="/:dayId" component={Details} />
                 </div>
             </HashRouter>
         );

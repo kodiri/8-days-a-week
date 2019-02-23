@@ -2,7 +2,6 @@ import React from 'react';
 import CryptoCard from '../crypto/crypto';
 import { Link } from 'react-router-dom';
 import '../header/header.css';
-import Timeline from '../timeline/timeline';
 
 export default function Nav() {
   const coinData = {
@@ -14,7 +13,7 @@ export default function Nav() {
       <div className="container">
         <div className="nav-bar">
           <div className="header-logo">
-            <Link to="/" component={Timeline}>
+            <Link to="/">
               <header>8 Days a Week</header>
             </Link>
           </div>
