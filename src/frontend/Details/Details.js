@@ -27,41 +27,38 @@ export default class Details extends Component {
 					<div className='details-container'>
 						<div className='details-box'>
 							<h2 className='details-title details-center-text'>Health & Fitness</h2>
-							<a className='details-a' href="https://google.com">
-								<img className='details-img' src={require('./testImages/posture.png')} alt='posture' />
-							</a>
+							<img className='details-img' src={day.fitness.picture} alt={day.fitness.alt} />
 						</div>
 						<div className='details-box'>
 							<h2 className='details-title details-center-text'>Quote of the Day</h2>
 							<p>
-								“I have very personally felt the overwhelming loneliness, self-doubt, and frustration that often comes with the minority status of a woman in engineering. As much as I can help others get through or avoid those difficult stretches that I myself had to weather, I’d like to. As a bonus, the more women (and minorities) that enter and don’t leave the field, the better it all gets for everyone, including me!”
+								{day.quote.quote}
 							</p>
 							<p className='details-quoter'>
-								Tracy Chou, Software Engineer at Pinterest
+								{day.quote.quoter}
 							</p>
 						</div>
 						<div className='details-box'>
 							<h2 className='details-title details-center-text'>Nutrition</h2>
-							<a className='details-a' href="https://google.com">
-								<img className='details-img' src={require('./testImages/food.png')} alt='food' />
+							<h3 className='details-center-text details-a'>{day.food.name}</h3>
+							<a className='details-a' href={day.food.url} target='_blank' rel="noopener noreferrer">
+								<img className='details-img' src={day.food.picture} alt={day.food.alt} />
 							</a>
 						</div>
 					</div>
 					<div className='details-container'>
-				
 						<div className='details-box'>
-						<a className='details-a' href="https://en.wikipedia.org/wiki/Tracy_Chou" target='_blank' rel="noopener noreferrer">
-						<h2 className='details-center-text'>Influencer: Tracy Chou</h2>
+						<a className='details-a' href={ day.influencer.url} target='_blank' rel="noopener noreferrer">
+						<h2 className='details-center-text'>Influencer: {day.influencer.name}</h2>
 							<div className="details-imgWrap">
-								<img className='details-img' src={require('./testImages/person.png')} alt='person' />
+								<img className='details-img' src={ day.influencer.picture } alt={ day.influencer.alt } />
 							</div>
 							</a>
 						</div>
-					
 						<div className='details-box'>
-							<p>Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.</p>
+							{ day.bio.bio }
 							<br />
-							<a className='details-a' href="https://medium.com/@triketora" target="_blank" rel="noopener noreferrer">
+							<a className='details-a' href= { day.bio.url }  target="_blank" rel="noopener noreferrer">
 								<p>Learn more ...</p>
 							</a>
 						</div>
