@@ -111,7 +111,7 @@ export default function getDays() {
     {
       id: 'friday',
       fitness: {
-        picture: require('./fitness/squats.jpg'),
+        picture: require('./fitness/pullAparts.jpg'),
         alt: "squats"
       },
       quote: {
@@ -192,7 +192,7 @@ export default function getDays() {
     {
       id: 'eighth',
       fitness: {
-        picture: require('./fitness/posture.png'),
+        picture: require('./fitness/yPrones.png'),
         alt: "posture"
       },
       quote: {
