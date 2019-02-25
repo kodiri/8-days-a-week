@@ -7,6 +7,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import Header from '../header/header';
 
 
+
+
 class TimeLine extends Component {
     render() {
         return (
