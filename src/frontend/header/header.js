@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTextRotator from 'react-text-rotator';
 import './header.css';
 import Nav from '../Nav/Nav';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function Header() {
@@ -14,9 +15,11 @@ export default function Header() {
               <MyComponent />
             </div>
             <div className='arrow'>
-              <a href = '#timeline' ><span></span>
-              <span></span>
-              <span></span></a>
+              <Link to="/#timeline">
+                <span></span>
+                <span></span>
+                <span></span>
+              </Link>
             </div>
           </div>
         </div>
