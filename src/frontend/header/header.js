@@ -29,7 +29,7 @@ export default function Header() {
 
 const content = [
   {
-    text: 'Frontend Developer',
+    text: 'Software Developer',
     className: 'classA',
     animation: 'fade',
   },
@@ -44,7 +44,7 @@ const content = [
     animation: 'fade',
   },
   {
-    text: 'Love IT',
+    text: 'Tech Hobbyist',
     className: 'classA',
     animation: 'fade',
   },
@@ -52,7 +52,7 @@ const content = [
 
 const MyComponent = () => (
   <div>
-    <h2 id="textRotator">I'm Coding Woman</h2>
+    <h2 id="textRotator">Women are under-represented in the UK's technology sector.</h2>
     <ReactTextRotator
       content={content}
       time={3000}

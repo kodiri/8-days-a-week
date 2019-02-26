@@ -41,6 +41,19 @@ body {
 .details-center-text {
   text-align: center;
 }
+.backBtn {
+  border:1px solid #1995AD;
+  border-radius: 30px;
+  padding: 9px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #1995AD;
+}
+
+.backBtn:hover {
+  background-color: #1995AD;
+  color: #fff;
+}
 
 @media only screen and (min-width: 991px) {
   .details-container {
