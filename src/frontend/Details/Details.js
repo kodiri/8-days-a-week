@@ -27,7 +27,7 @@ export default class Details extends Component {
 					<div className='details-container'>
 						<div className='details-box'>
 							<h2 className='details-title details-center-text'>Health & Fitness</h2>
-							<a href={day.fitness.link} alt='link to fitness'>
+							<a href={day.fitness.url} alt='link to fitness' target='_blank' rel='noreferrer noopener'>
 							<img className='details-img' src={day.fitness.picture} alt={day.fitness.alt} />
 							</a>
 						</div>
