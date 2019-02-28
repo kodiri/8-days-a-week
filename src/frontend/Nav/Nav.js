@@ -1,13 +1,8 @@
 import React from 'react';
-import CryptoCard from '../crypto/crypto';
 import { Link } from 'react-router-dom';
 import '../header/header.css';
 
 export default function Nav() {
-  const coinData = {
-    name: 'Bitcoin',
-    symbol: 'BTC',
-  } 
   return (
     <div className="nav-container">
       <div className="container">
@@ -18,10 +13,7 @@ export default function Nav() {
             </Link>
           </div>
           <nav id="navigation">
-            <CryptoCard
-              name={coinData.name}
-              symbol={coinData.symbol}
-            /> 
+            by Alpha Team />
           </nav>
         </div>
       </div>

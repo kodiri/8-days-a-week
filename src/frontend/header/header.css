@@ -43,6 +43,7 @@
   margin-right: 15px;
   padding: 0;
   align-self: center;
+  font-size: 21px;
 
 }
 #navigation ul  {
@@ -147,6 +148,10 @@
   
   #navigation ul li a .active {
     font-size: 15px;
+  }
+
+  #navigation {
+    font-size: 16px;
   }
 
   .header-logo a {
