@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/8-days-a-week/precache-manifest.16f7506b57250f5e1c404b63c781fa58.js"
+  "/8-days-a-week/precache-manifest.94f541cfed0be8fab95c57f6a92e626c.js"
 );
 
 workbox.clientsClaim();
