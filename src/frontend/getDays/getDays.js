@@ -20,12 +20,11 @@ export default function getDays() {
       influencer: {
         name: "Grace Hopper",
         picture: require('./influencers/GraceHopper.jpg'),
-        alt: "Tracy Chou",
-        url: ''
+        alt: "Grace Hopper",
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: 'Grace Brewster Murray Hopper (née Murray December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral.One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first compiler related tools. She popularized the idea of machine-independent programming languages, which led to the development of COBOL, an early high-level programming language still in use today. She always dreamed of a programming language written in English.',
+        url: 'https://en.wikipedia.org/wiki/Grace_Hopper'
       }
     },
     {
@@ -49,11 +48,11 @@ export default function getDays() {
         name:'Ellen Ullman',
         picture: require('./influencers/UllmanEllen.jpg'),
         alt: "Ellen Ullman",
-        url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Ellen Ullman is an American computer programmer and author. She has written novels as well as articles for various publications, including Harper's Magazine, Wired, The New York Times and Salon.
+        She owned a consulting firm and worked as technology commentator for NPR's All Things Considered. Her essays and novels analyze the human side of the world of computer programming. Her breakthrough book was non-fiction: Close to the Machine: Technophilia and its Discontents.`,
+        url: 'https://en.wikipedia.org/wiki/Ellen_Ullman'
       }
     },
     {
@@ -77,11 +76,10 @@ export default function getDays() {
         name: "Sheryl Sandberg",
         picture: require('./influencers/SherylSandberg.jpg'),
         alt: "Sheryl Sandberg",
-        url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Sheryl Kara Sandberg (born August 28, 1969)is an American technology executive, activist, author, and billionaire. She is the chief operating officer (COO) of Facebook and founder of Leanin.org. In June 2012, she was elected to Facebook's board of directors by the existing board members,[5] becoming the first woman to serve on its board. Before she joined Facebook as its COO, Sandberg was vice president of global online sales and operations at Google, and was involved in launching Google's philanthropic arm Google.org. Before Google, Sandberg served as chief of staff for United States Secretary of the Treasury Lawrence Summers.`,
+        url: 'https://en.wikipedia.org/wiki/Sheryl_Sandberg'
       }
     },
     {
@@ -105,11 +103,10 @@ export default function getDays() {
         name: "Ada Lovelace",
         picture: require('./influencers/AdaLovelace.jpg'),
         alt: "Ada Lovelace",
-        url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Augusta Ada King, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is sometimes regarded as the first to recognise the full potential of a "computing machine" and the first computer programmer.`,
+        url: 'https://en.wikipedia.org/wiki/Ada_Lovelace'
       }
     },
     {
@@ -136,8 +133,8 @@ export default function getDays() {
         url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Margaret Heafield Hamilton (born August 17, 1936)is an American computer scientist, systems engineer, and business owner. She is credited with coining the term "software engineering". Hamilton was Director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for the Apollo space program.[4] In 1986, she became the founder and CEO of Hamilton Technologies, Inc., in Cambridge, Massachusetts. The company was developed around the Universal Systems Language based on her paradigm of Development Before the Fact (DBTF) for systems and software design.`,
+        url:'https://en.wikipedia.org/wiki/Margaret_Hamilton_%28scientist%29'
       }
     },
     {
@@ -164,8 +161,10 @@ export default function getDays() {
         url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio:  `Susan Diane Wojcicki (born July 5, 1968) is a Polish-American technology executive. She has been the CEO of YouTube since February 2014.
+        Wojcicki was involved in the founding of Google, and became Google's first marketing manager in 1999. She was in charge of Google's original video service, and after observing the success of YouTube, proposed the acquisition of YouTube by Google in 2006.
+        Wojcicki has an estimated net worth of nearly $500 million.`,
+        url: 'https://en.wikipedia.org/wiki/Susan_Wojcicki'
       }
     },
     {
@@ -192,8 +191,8 @@ export default function getDays() {
         url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Virginia Marie "Ginni" Rometty (born July 29, 1957)is an American business executive. She is the current chair, president, and CEO of IBM, and the first woman to head the company.Prior to becoming president and CEO in January 2012, she first joined IBM as a systems engineer in 1981 and subsequently headed global sales, marketing, and strategy.While general manager of IBM's global services division, in 2002 she helped negotiate IBM's purchase of PricewaterhouseCoopers IT consulting business, becoming known for her work integrating the two companies.Since becoming CEO, she has focused IBM on analytics, cloud computing, and cognitive computing systems.`,
+        url: 'https://en.wikipedia.org/wiki/Ginni_Rometty'
       }
     },
     {
@@ -217,11 +216,10 @@ export default function getDays() {
         name: "Ruth Bader Ginsburg",
         picture: require('./influencers/RuthBaderGinsburg.jpg'),
         alt: "Ruth Bader Ginsburg",
-        url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
-        bio: "Tracy Chou is a software engineer and advocate for diversity in her field. She has prior work experience at Pinterest, Quora and internship experience at Rocket Fuel, Google, and Facebook.",
-        url: "https://medium.com/@triketora"
+        bio: `Ruth Bader Ginsburg (born Joan Ruth Bader; March 15, 1933) is an Associate Justice of the Supreme Court of the United States. Ginsburg was appointed by President Bill Clinton and took the oath of office on August 10, 1993. She is the second female justice (after Sandra Day O'Connor) of four to be confirmed to the court (along with Sonia Sotomayor and Elena Kagan, who are still serving). Following O'Connor's retirement, and until Sotomayor joined the court, Ginsburg was the only female justice on the Supreme Court. During that time, Ginsburg became more forceful with her dissents, which were noted by legal observers and in popular culture. She is generally viewed as belonging to the liberal wing of the court. Ginsburg has authored notable majority opinions, including United States v. Virginia, Olmstead v. L.C., and Friends of the Earth, Inc. v. Laidlaw Environmental Services, Inc.`,
+        url: 'https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg'
       }
     }
   ]
