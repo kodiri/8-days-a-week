@@ -158,7 +158,6 @@ export default function getDays() {
         name: "Susan Wojcicki",
         picture: require('./influencers/SusanWojcicki.jpg'),
         alt: "Susan Wojcicki",
-        url: "https://en.wikipedia.org/wiki/Tracy_Chou"
       },
       bio: {
         bio:  `Susan Diane Wojcicki (born July 5, 1968) is a Polish-American technology executive. She has been the CEO of YouTube since February 2014.
